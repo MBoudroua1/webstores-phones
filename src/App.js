@@ -4,7 +4,14 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   render() {
-    return null;
+    return (
+      <React.Fragment>
+        <h3>
+        Hello From App
+        </h3>
+        
+      </React.Fragment>
+    );
   }
 }
 
